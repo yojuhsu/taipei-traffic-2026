@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 
 <html lang="zh-Hant"><head><meta charset="utf-8"/>
-<meta content="下班後七點約松菸？只搭捷運，內科人要比北車人提早 15 到 23 分鐘離開辦公室" name="description"/>
+<meta content="用交通局車流資料看內湖塞車時段：堤頂大道傍晚往南大半時間都塞，傍晚上國道的匝道五個平日都塞。傍晚提早半小時出發，只有 10/21 省到約 4 分鐘，其他平日約 1 分鐘；7 點到松菸，內科人只搭捷運要比北車人早 15 到 23 分鐘出門。" name="description"/>
 <meta content="website" property="og:type"/>
 <meta content="zh_TW" property="og:locale"/>
 <meta content="許幼如" property="og:site_name"/>
 <meta content="https://yojuhsu.com/2026-taipei-debug-traffic" property="og:url"/>
-<meta content="下班後七點約松菸？只搭捷運，內科人要比北車人提早 15 到 23 分鐘離開辦公室" property="og:title"/>
-<meta content="下班後七點約松菸？只搭捷運，內科人要比北車人提早 15 到 23 分鐘離開辦公室" property="og:description"/>
+<meta content="內湖下班塞車時段：堤頂大道往南傍晚大半時間都塞" property="og:title"/>
+<meta content="用交通局車流資料看內湖塞車時段：堤頂大道傍晚往南大半時間都塞，傍晚上國道的匝道五個平日都塞。傍晚提早半小時出發，只有 10/21 省到約 4 分鐘，其他平日約 1 分鐘；7 點到松菸，內科人只搭捷運要比北車人早 15 到 23 分鐘出門。" property="og:description"/>
 <meta content="https://cdn.jsdelivr.net/gh/yojuhsu/taipei-traffic-2026@713ab07f229f12074d74586ef5f4ca46387043e9/fig/og-q4.webp" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
 <meta content="630" property="og:image:height"/>
 <meta content="台北市 市政Debug松 題 4：內湖傍晚出城最塞" property="og:image:alt"/>
 <meta content="https://cdn.jsdelivr.net/gh/yojuhsu/taipei-traffic-2026@713ab07f229f12074d74586ef5f4ca46387043e9/fig/og-q4.webp" name="twitter:image"/>
 <meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="https://yojuhsu.com/2026-taipei-debug-traffic" rel="canonical"/><title>下班後七點約松菸？只搭捷運，內科人要比北車人提早 15 到 23 分鐘離開辦公室</title><style>
+<link href="https://yojuhsu.com/2026-taipei-debug-traffic" rel="canonical"/><title>內湖下班塞車時段：堤頂大道往南傍晚大半時間都塞</title><style>
 :root{--ink:#1f1a17;--mute:#6b625c;--line:#d9d2c8;--bg:#faf7f2;--paper:#fffdf9;--warn:#b7791f;--warnbg:#fff6e5;--bad:#8b2e1f;
 --l1:#3b7a57;--l2:#8fae5a;--l3:#d9b23a;--l4:#e08a2e;--l5:#c9502a;--l6:#8b2e1f;--l0:#d9d2c8;--lx:#9a8f86}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "PingFang TC","Noto Sans TC",system-ui,sans-serif}
@@ -539,7 +539,7 @@ drawScope();drawState();drawMap();drawGatePanel();drawSmalls();drawCorr();drawDe
 // 開頁就試著進即時；抓不到就留在快照並說明
 {const ci=D.times.indexOf(D.claim_t);if(ci>=0){ti=ci;slider.value=ti}}sel='堤頂大道';drawMap();drawGatePanel();drawSmalls();document.getElementById('liveInfo').textContent='這張圖停在 '+D.claim_t+'，颱風過後最後一個平日的傍晚；按「即時」看現在這一分鐘，拉滑桿或按晨峰、晚峰看別的時刻。';
 </script><section aria-label="系列" class="series-end"><h2 class="se-h">2026 debug松</h2><div class="sg"><a class="sc" href="/2026-taipei-debug-trees"><span>【種回三千棵樹】</span></a><a class="sc" href="/2026-taipei-debug-bins"><span>【消失的垃圾桶】</span></a><a class="sc" href="/2026-taipei-debug-rats"><span>【鼠患四處跑】</span></a><a aria-current="page" class="sc cur"><span>【內湖尖峰車流】</span></a><a class="sc" href="/2026-taipei-debug-bus"><span>【公車路網】</span></a><a class="sc" href="/2026-taipei-debug-aging"><span>【危老耐震】</span></a></div></section>
-<div class="yjh-ver">v2.1.0　資料至 2026-10-30　更新 2026-11-04　<a href="https://github.com/yojuhsu/taipei-traffic-2026/blob/main/CHANGELOG.md" rel="noopener" target="_blank">更新紀錄</a></div>
+<div class="yjh-ver">v2.1.1　資料至 2026-10-30　更新 2026-11-04　<a href="https://github.com/yojuhsu/taipei-traffic-2026/blob/main/CHANGELOG.md" rel="noopener" target="_blank">更新紀錄</a></div>
 <script>
 (function(){
  var $=function(s,r){return (r||document).querySelector(s)};
